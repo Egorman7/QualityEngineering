@@ -1,0 +1,6 @@
+CommandLine
+C:\LANG\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/stud/knt-124m/Tkachuk/lab1/test1/test1.ise -intstyle ise -ifn D:/stud/knt-124m/Tkachuk/lab1/test1/test1.xst -ofn D:/stud/knt-124m/Tkachuk/lab1/test1/test1.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

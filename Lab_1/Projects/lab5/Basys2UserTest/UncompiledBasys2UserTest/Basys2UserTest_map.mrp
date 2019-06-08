@@ -1,0 +1,326 @@
+Release 10.1 Map K.31 (nt)
+Xilinx Mapping Report File for Design 'Basys2UserTest'
+
+Design Information
+------------------
+Command Line   : map -ise
+D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.i
+se -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o
+Basys2UserTest_map.ncd Basys2UserTest.ngd Basys2UserTest.pcf 
+Target Device  : xc3s100e
+Target Package : cp132
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.46 $
+Mapped Date    : Wed Mar 13 11:29:30 2019
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   23
+Logic Utilization:
+  Total Number Slice Registers:          38 out of   1,920    1%
+    Number used as Flip Flops:           34
+    Number used as Latches:               4
+  Number of 4 input LUTs:                81 out of   1,920    4%
+Logic Distribution:
+  Number of occupied Slices:             60 out of     960    6%
+    Number of Slices containing only related logic:      60 out of      60 100%
+    Number of Slices containing unrelated logic:          0 out of      60   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:          99 out of   1,920    5%
+    Number used as logic:                81
+    Number used as a route-thru:         18
+  Number of bonded IOBs:                 74 out of      83   89%
+    IOB Flip Flops:                      16
+    IOB Latches:                          8
+  Number of BUFGMUXs:                     3 out of      24   12%
+
+Peak Memory Usage:  176 MB
+Total REAL time to MAP completion:  1 secs 
+Total CPU time to MAP completion:   1 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Control Set Information
+Section 14 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:243 - Logical network PS2C_IBUF has no load.
+WARNING:LIT:395 - The above warning message base_net_load_rule is repeated 1
+   more times for the following (max. 5 shown):
+   PS2D_IBUF
+   To see the details of these warning messages, please use the -detail switch.
+WARNING:Pack:1543 - The register PinDriversInst/PIOint_72 has the property
+   IOB=TRUE, but was not packed into the input side of an I/O component. The
+   site IFF1 contains register PinDriversInst/PIOint_80.
+   The register PinDriversInst/PIOint_72 can not use site iff1 because the clock
+   enable does not match site IFF1.
+WARNING:Pack:1543 - The register PinDriversInst/PIOint_73 has the property
+   IOB=TRUE, but was not packed into the input side of an I/O component. The
+   site IFF1 contains register PinDriversInst/PIOint_81.
+   The register PinDriversInst/PIOint_73 can not use site iff1 because the clock
+   enable does not match site IFF1.
+WARNING:Pack:1543 - The register PinDriversInst/PIOint_74 has the property
+   IOB=TRUE, but was not packed into the input side of an I/O component. The
+   site IFF1 contains register PinDriversInst/PIOint_82.
+   The register PinDriversInst/PIOint_74 can not use site iff1 because the clock
+   enable does not match site IFF1.
+WARNING:Pack:1543 - The register PinDriversInst/PIOint_75 has the property
+   IOB=TRUE, but was not packed into the input side of an I/O component. The
+   site IFF1 contains register PinDriversInst/PIOint_83.
+   The register PinDriversInst/PIOint_75 can not use site iff1 because the clock
+   enable does not match site IFF1.
+WARNING:Pack:1543 - The register PinDriversInst/PIOint_76 has the property
+   IOB=TRUE, but was not packed into the input side of an I/O component. The
+   site IFF1 contains register PinDriversInst/PIOint_84.
+   The register PinDriversInst/PIOint_76 can not use site iff1 because the clock
+   enable does not match site IFF1.
+WARNING:Pack:1543 - The register PinDriversInst/PIOint_77 has the property
+   IOB=TRUE, but was not packed into the input side of an I/O component. The
+   site IFF1 contains register PinDriversInst/PIOint_85.
+   The register PinDriversInst/PIOint_77 can not use site iff1 because the clock
+   enable does not match site IFF1.
+WARNING:Pack:1543 - The register PinDriversInst/PIOint_78 has the property
+   IOB=TRUE, but was not packed into the input side of an I/O component. The
+   site IFF1 contains register PinDriversInst/PIOint_86.
+   The register PinDriversInst/PIOint_78 can not use site iff1 because the clock
+   enable does not match site IFF1.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ctlEppDwrOut is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   DispCtrlInst/outGreen_0_not0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <PS2C_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <PS2D_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp VSync is
+   set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp OutBlue<1>
+   is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp OutBlue<2>
+   is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp OutRed<0>
+   is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp OutRed<1>
+   is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp OutRed<2>
+   is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp HSync is
+   set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   OutGreen<0> is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   OutGreen<1> is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   OutGreen<2> is set but the tri state is not configured. 
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:986 - The SAVE constraint for nets has been made more strict
+   starting in 10.1, such that the net driver and load blocks will be preserved
+   as well. To revert to the original behavior please set XIL_MAP_OLD_SAVE.
+INFO:MapLib:984 - SAVE has been detected on the following signal(s):
+   PS2C,
+   PS2D.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |             | Strength | Rate |              |          | Delay    |
++----------------------------------------------------------------------------------------------------------------------------------------+
+| EppAstb                            | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| EppDB<0>                           | IOB              | BIDIR     | LVCMOS25    | 12       | SLOW | IFF1         |          | 0 / 2    |
+| EppDB<1>                           | IOB              | BIDIR     | LVCMOS25    | 12       | SLOW | IFF1         |          | 0 / 2    |
+| EppDB<2>                           | IOB              | BIDIR     | LVCMOS25    | 12       | SLOW | IFF1         |          | 0 / 2    |
+| EppDB<3>                           | IOB              | BIDIR     | LVCMOS25    | 12       | SLOW | IFF1         |          | 0 / 2    |
+| EppDB<4>                           | IOB              | BIDIR     | LVCMOS25    | 12       | SLOW | IFF1         |          | 0 / 2    |
+| EppDB<5>                           | IOB              | BIDIR     | LVCMOS25    | 12       | SLOW | IFF1         |          | 0 / 2    |
+| EppDB<6>                           | IOB              | BIDIR     | LVCMOS25    | 12       | SLOW | IFF1         |          | 0 / 2    |
+| EppDB<7>                           | IOB              | BIDIR     | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| EppDstb                            | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| EppWait                            | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| EppWr                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| HSync                              | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| OutBlue<1>                         | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| OutBlue<2>                         | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| OutGreen<0>                        | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW | OFF1         | PULLUP   | 0 / 0    |
+| OutGreen<1>                        | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| OutGreen<2>                        | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| OutRed<0>                          | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW | OFF1         | PULLUP   | 0 / 0    |
+| OutRed<1>                          | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| OutRed<2>                          | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| PIO<72>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW | TFF1         | PULLUP   | 0 / 0    |
+| PIO<73>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW | TFF1         | PULLUP   | 0 / 0    |
+| PIO<74>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW | TFF1         | PULLUP   | 0 / 0    |
+| PIO<75>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW | TFF1         | PULLUP   | 0 / 0    |
+| PIO<76>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW | TFF1         | PULLUP   | 0 / 0    |
+| PIO<77>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW | TFF1         | PULLUP   | 0 / 0    |
+| PIO<78>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW | TFF1         | PULLUP   | 0 / 0    |
+| PIO<79>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW | TFF1         | PULLUP   | 0 / 0    |
+| PIO<80>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| PIO<81>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| PIO<82>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| PIO<83>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| PIO<84>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| PIO<85>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| PIO<86>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| PIO<87>                            | IOB              | BIDIR     | LVCMOS25    | 2        | SLOW | TFF1         | PULLUP   | 0 / 0    |
+| PS2C                               | IBUF             | INPUT     | LVCMOS25    |          |      |              | PULLUP   | 0 / 0    |
+| PS2D                               | IBUF             | INPUT     | LVCMOS25    |          |      |              | PULLUP   | 0 / 0    |
+| VSync                              | IOB              | OUTPUT    | LVCMOS25    | 2        | SLOW |              | PULLUP   | 0 / 0    |
+| an<0>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          | 0 / 0    |
+| an<1>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          | 0 / 0    |
+| an<2>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          | 0 / 0    |
+| an<3>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          | 0 / 0    |
+| btn<0>                             | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| btn<1>                             | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| btn<2>                             | IBUF             | INPUT     | LVCMOS25    |          |      | IFF1         |          | 0 / 2    |
+| btn<3>                             | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| dp                                 | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| led<0>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| led<1>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| led<2>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| led<3>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| led<4>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| led<5>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| led<6>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| led<7>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| mclk                               | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| seg<0>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| seg<1>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| seg<2>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| seg<3>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| seg<4>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| seg<5>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| seg<6>                             | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW | OFF1         |          | 0 / 0    |
+| sw<0>                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| sw<1>                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| sw<2>                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| sw<3>                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| sw<4>                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| sw<5>                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| sw<6>                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| sw<7>                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| uclk                               | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
++----------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 14 - Utilization by Hierarchy
+-------------------------------------
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Module                | Partition | Slices        | Slice Reg     | LUTs          | LUTRAM        | BRAM      | MULT18X18 | BUFG  | DCM   | Full Hierarchical Name               |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Basys2UserTest/       |           | 12/74         | 0/38          | 20/99         | 0/0           | 0/0       | 0/0       | 1/3   | 0/0   | Basys2UserTest                       |
+| +CompSelInst          |           | 1/1           | 0/0           | 1/1           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Basys2UserTest/CompSelInst           |
+| +DispCtrlInst         |           | 27/27         | 23/23         | 29/29         | 0/0           | 0/0       | 0/0       | 1/1   | 0/0   | Basys2UserTest/DispCtrlInst          |
+| +EppCtrlInst          |           | 23/23         | 11/11         | 35/35         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Basys2UserTest/EppCtrlInst           |
+| +PinDriversInst       |           | 2/2           | 0/0           | 2/2           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Basys2UserTest/PinDriversInst        |
+| +SimpleSsegLedDemoIns |           | 9/9           | 4/4           | 12/12         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Basys2UserTest/SimpleSsegLedDemoInst |
+| +ckMuxInst            |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/0       | 0/0       | 1/1   | 0/0   | Basys2UserTest/ckMuxInst             |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+* Slices can be packed with basic elements from multiple hierarchies.
+  Therefore, a slice will be counted in every hierarchical module
+  that each of its packed basic elements belong to.
+** For each column, there are two numbers reported <A>/<B>.
+   <A> is the number of elements that belong to that specific hierarchical module.
+   <B> is the total number of elements from that hierarchical module and any lower level
+   hierarchical modules below.
+*** The LUTRAM column counts all LUTs used as memory including RAM, ROM, and shift registers.

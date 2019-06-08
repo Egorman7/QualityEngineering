@@ -1,0 +1,7 @@
+vhdl work "SimpleSsegLedDemo.vhd"
+vhdl work "PinDrivers.vhd"
+vhdl work "EppCtrl.vhd"
+vhdl work "DispCtrl.vhd"
+vhdl work "CompSel.vhd"
+vhdl work "ckMux.vhd"
+vhdl work "Basys2UserTest.vhd"

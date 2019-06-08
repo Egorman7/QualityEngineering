@@ -1,0 +1,14 @@
+AR eppctrl behavioral D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/EppCtrl.vhd sub00/vhpl05 1552465766
+EN simplessegleddemo NULL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/SimpleSsegLedDemo.vhd sub00/vhpl06 1552465767
+AR dispctrl behavioral D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/DispCtrl.vhd sub00/vhpl11 1552465772
+AR compsel behavioral D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/CompSel.vhd sub00/vhpl01 1552465762
+EN dispctrl NULL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/DispCtrl.vhd sub00/vhpl10 1552465771
+AR ckmux behavioral D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/ckMux.vhd sub00/vhpl09 1552465770
+AR pindrivers behavioral D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/PinDrivers.vhd sub00/vhpl03 1552465764
+AR basys2usertest structural D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd sub00/vhpl13 1552465774
+EN basys2usertest NULL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd sub00/vhpl12 1552465773
+EN eppctrl NULL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/EppCtrl.vhd sub00/vhpl04 1552465765
+EN ckmux NULL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/ckMux.vhd sub00/vhpl08 1552465769
+EN compsel NULL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/CompSel.vhd sub00/vhpl00 1552465761
+AR simplessegleddemo behavioral D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/SimpleSsegLedDemo.vhd sub00/vhpl07 1552465768
+EN pindrivers NULL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/PinDrivers.vhd sub00/vhpl02 1552465763

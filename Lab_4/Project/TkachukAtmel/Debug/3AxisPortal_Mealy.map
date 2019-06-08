@@ -1,0 +1,555 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm644a.o (exit)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+                              UserDesign/UserDesign.o (__tablejump2__)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+                              GOLDiInterface/GOLDiInterface.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+Actuators           0x6               PhysicalSystems/PhysicalSystem.o
+flag                0x2               UserDesign/UserDesign.o
+GOLDiInterfaceInputBuffer
+                    0x2               GOLDiInterface/GOLDiInterface.o
+open1               0x2               UserDesign/UserDesign.o
+open2               0x2               UserDesign/UserDesign.o
+State               0x1               UserDesign/UserDesign.o
+ReceiveIndex        0x1               GOLDiInterface/GOLDiInterface.o
+Sensors             0x6               PhysicalSystems/PhysicalSystem.o
+TmpBuffer           0x6               GOLDiInterface/GOLDiInterface.o
+GOLDiInterfaceOutputBuffer
+                    0x2               GOLDiInterface/GOLDiInterface.o
+open3               0x2               UserDesign/UserDesign.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm644a.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm644a.o
+ .text          0x00000000        0x0 GOLDiInterface/GOLDiInterface.o
+ .data          0x00000000        0x0 GOLDiInterface/GOLDiInterface.o
+ .bss           0x00000000        0x0 GOLDiInterface/GOLDiInterface.o
+ .text          0x00000000        0x0 GOLDiInterface/UART0.o
+ .data          0x00000000        0x0 GOLDiInterface/UART0.o
+ .bss           0x00000000        0x0 GOLDiInterface/UART0.o
+ .text          0x00000000        0x0 Main.o
+ .data          0x00000000        0x0 Main.o
+ .bss           0x00000000        0x0 Main.o
+ .text          0x00000000        0x0 PhysicalSystems/PhysicalSystem.o
+ .data          0x00000000        0x0 PhysicalSystems/PhysicalSystem.o
+ .bss           0x00000000        0x0 PhysicalSystems/PhysicalSystem.o
+ .text          0x00000000        0x0 UserDesign/UserDesign.o
+ .data          0x00000000        0x0 UserDesign/UserDesign.o
+ .bss           0x00000000        0x0 UserDesign/UserDesign.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm644a.o
+LOAD GOLDiInterface/GOLDiInterface.o
+LOAD GOLDiInterface/UART0.o
+LOAD Main.o
+LOAD PhysicalSystems/PhysicalSystem.o
+LOAD UserDesign/UserDesign.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x546
+ *(.vectors)
+ .vectors       0x00000000       0x7c c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm644a.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.StateMachineUpdate
+                0x0000007c       0x16 UserDesign/UserDesign.o
+                0x00000092                . = ALIGN (0x2)
+                0x00000092                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000092        0x0 linker stubs
+ *(.trampolines*)
+                0x00000092                __trampolines_end = .
+ *(.progmem*)
+                0x00000092                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000092                __ctors_start = .
+ *(.ctors)
+                0x00000092                __ctors_end = .
+                0x00000092                __dtors_start = .
+ *(.dtors)
+                0x00000092                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000092        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm644a.o
+                0x00000092                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000092        0xc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm644a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000009e       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+                0x0000009e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000ae        0x8 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm644a.o
+ *(.init9)
+ *(.text)
+ .text          0x000000b6        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm644a.o
+                0x000000b6                __vector_22
+                0x000000b6                __vector_28
+                0x000000b6                __vector_1
+                0x000000b6                __vector_24
+                0x000000b6                __vector_12
+                0x000000b6                __bad_interrupt
+                0x000000b6                __vector_6
+                0x000000b6                __vector_3
+                0x000000b6                __vector_23
+                0x000000b6                __vector_30
+                0x000000b6                __vector_25
+                0x000000b6                __vector_11
+                0x000000b6                __vector_13
+                0x000000b6                __vector_17
+                0x000000b6                __vector_19
+                0x000000b6                __vector_7
+                0x000000b6                __vector_27
+                0x000000b6                __vector_5
+                0x000000b6                __vector_4
+                0x000000b6                __vector_9
+                0x000000b6                __vector_2
+                0x000000b6                __vector_21
+                0x000000b6                __vector_15
+                0x000000b6                __vector_29
+                0x000000b6                __vector_8
+                0x000000b6                __vector_26
+                0x000000b6                __vector_14
+                0x000000b6                __vector_10
+                0x000000b6                __vector_16
+                0x000000b6                __vector_18
+                0x000000ba                . = ALIGN (0x2)
+ *(.text.*)
+ .text.GOLDiInterfaceInit
+                0x000000ba       0x22 GOLDiInterface/GOLDiInterface.o
+                0x000000ba                GOLDiInterfaceInit
+ .text.GOLDiInterfaceSendData
+                0x000000dc       0x68 GOLDiInterface/GOLDiInterface.o
+                0x000000dc                GOLDiInterfaceSendData
+ .text.GOLDiInterfaceNewData
+                0x00000144       0x62 GOLDiInterface/GOLDiInterface.o
+                0x00000144                GOLDiInterfaceNewData
+ .text.__vector_20
+                0x000001a6       0x4c GOLDiInterface/UART0.o
+                0x000001a6                __vector_20
+ .text.UART0_init
+                0x000001f2       0x10 GOLDiInterface/UART0.o
+                0x000001f2                UART0_init
+ .text.UART0_put_char
+                0x00000202       0x10 GOLDiInterface/UART0.o
+                0x00000202                UART0_put_char
+ .text.main     0x00000212       0x12 Main.o
+                0x00000212                main
+ .text.StateMachineInit
+                0x00000224       0x2c UserDesign/UserDesign.o
+                0x00000224                StateMachineInit
+ .text.StateMachineUpdate
+                0x00000250      0x2e6 UserDesign/UserDesign.o
+                0x00000250                StateMachineUpdate
+ .text.libgcc   0x00000536        0xc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_tablejump.o)
+                0x00000536                __tablejump2__
+                0x0000053a                __tablejump__
+                0x00000542                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000542        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+                0x00000542                _exit
+                0x00000542                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000542        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000546                _etext = .
+
+.data           0x00800100        0x0 load address 0x00000546
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800100                . = ALIGN (0x2)
+                0x00800100                _edata = .
+                0x00800100                PROVIDE (__data_end, .)
+
+.bss            0x00800100       0x20
+                0x00800100                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800100        0xb GOLDiInterface/GOLDiInterface.o
+                0x00800100                GOLDiInterfaceInputBuffer
+                0x00800102                ReceiveIndex
+                0x00800103                TmpBuffer
+                0x00800109                GOLDiInterfaceOutputBuffer
+ COMMON         0x0080010b        0xc PhysicalSystems/PhysicalSystem.o
+                0x0080010b                Actuators
+                0x00800111                Sensors
+ COMMON         0x00800117        0x9 UserDesign/UserDesign.o
+                0x00800117                flag
+                0x00800119                open1
+                0x0080011b                open2
+                0x0080011d                State
+                0x0080011e                open3
+                0x00800120                PROVIDE (__bss_end, .)
+                0x00000546                __data_load_start = LOADADDR (.data)
+                0x00000546                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800120        0x0
+                0x00800120                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800120                PROVIDE (__noinit_end, .)
+                0x00800120                _end = .
+                0x00800120                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 GOLDiInterface/GOLDiInterface.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 GOLDiInterface/UART0.o
+ .comment       0x00000000       0x31 Main.o
+ .comment       0x00000000       0x31 PhysicalSystems/PhysicalSystem.o
+ .comment       0x00000000       0x31 UserDesign/UserDesign.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 GOLDiInterface/GOLDiInterface.o
+ .debug_aranges
+                0x00000030       0x30 GOLDiInterface/UART0.o
+ .debug_aranges
+                0x00000060       0x20 Main.o
+ .debug_aranges
+                0x00000080       0x18 PhysicalSystems/PhysicalSystem.o
+ .debug_aranges
+                0x00000098       0x28 UserDesign/UserDesign.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1340
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x61b GOLDiInterface/GOLDiInterface.o
+ .debug_info    0x0000061b       0xf4 GOLDiInterface/UART0.o
+ .debug_info    0x0000070f       0xcd Main.o
+ .debug_info    0x000007dc      0x45d PhysicalSystems/PhysicalSystem.o
+ .debug_info    0x00000c39      0x707 UserDesign/UserDesign.o
+
+.debug_abbrev   0x00000000      0x449
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x16c GOLDiInterface/GOLDiInterface.o
+ .debug_abbrev  0x0000016c       0xc4 GOLDiInterface/UART0.o
+ .debug_abbrev  0x00000230       0x64 Main.o
+ .debug_abbrev  0x00000294       0x6a PhysicalSystems/PhysicalSystem.o
+ .debug_abbrev  0x000002fe      0x14b UserDesign/UserDesign.o
+
+.debug_line     0x00000000      0x55f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x157 GOLDiInterface/GOLDiInterface.o
+ .debug_line    0x00000157       0xf7 GOLDiInterface/UART0.o
+ .debug_line    0x0000024e       0x8c Main.o
+ .debug_line    0x000002da       0x7b PhysicalSystems/PhysicalSystem.o
+ .debug_line    0x00000355      0x20a UserDesign/UserDesign.o
+
+.debug_frame    0x00000000      0x134
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 GOLDiInterface/GOLDiInterface.o
+ .debug_frame   0x00000050       0x8c GOLDiInterface/UART0.o
+ .debug_frame   0x000000dc       0x24 Main.o
+ .debug_frame   0x00000100       0x34 UserDesign/UserDesign.o
+
+.debug_str      0x00000000      0x75c
+ *(.debug_str)
+ .debug_str     0x00000000      0x5ba GOLDiInterface/GOLDiInterface.o
+                                0x63d (size before relaxing)
+ .debug_str     0x000005ba       0x4e GOLDiInterface/UART0.o
+                                0x18c (size before relaxing)
+ .debug_str     0x00000608       0x35 Main.o
+                                0x177 (size before relaxing)
+ .debug_str     0x0000063d       0x24 PhysicalSystems/PhysicalSystem.o
+                                0x538 (size before relaxing)
+ .debug_str     0x00000661       0xfb UserDesign/UserDesign.o
+                                0x678 (size before relaxing)
+
+.debug_loc      0x00000000      0x372
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xe4 GOLDiInterface/GOLDiInterface.o
+ .debug_loc     0x000000e4       0xde GOLDiInterface/UART0.o
+ .debug_loc     0x000001c2      0x1b0 UserDesign/UserDesign.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000       0x68
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x20 GOLDiInterface/GOLDiInterface.o
+ .debug_ranges  0x00000020       0x20 GOLDiInterface/UART0.o
+ .debug_ranges  0x00000040       0x10 Main.o
+ .debug_ranges  0x00000050       0x18 UserDesign/UserDesign.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(3AxisPortal_Mealy.elf elf32-avr)
+LOAD linker stubs

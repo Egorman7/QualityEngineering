@@ -1,0 +1,6 @@
+CommandLine
+C:\LANG\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/KNT124m/Tkachuk/lab4/test4/test4.ise -intstyle ise -ifn D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.xst -ofn D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

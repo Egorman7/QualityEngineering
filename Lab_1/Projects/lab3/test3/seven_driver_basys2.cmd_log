@@ -1,0 +1,41 @@
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+ngdbuild -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "seven_driver_basys2.ngc" seven_driver_basys2.ngd
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+ngdbuild -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "seven_driver_basys2.ngc" seven_driver_basys2.ngd
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+ngdbuild -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "seven_driver_basys2.ngc" seven_driver_basys2.ngd
+map -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o seven_driver_basys2_map.ncd seven_driver_basys2.ngd seven_driver_basys2.pcf
+par -ise "C:/Users/Tata/test/test3/test3.ise" -w -intstyle ise -ol std -t 1 seven_driver_basys2_map.ncd seven_driver_basys2.ncd seven_driver_basys2.pcf
+trce -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -e 3 -s 5 -xml seven_driver_basys2 seven_driver_basys2.ncd -o seven_driver_basys2.twr seven_driver_basys2.pcf -ucf basys2.ucf
+bitgen -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -f seven_driver_basys2.ut seven_driver_basys2.ncd
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+ngdbuild -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "seven_driver_basys2.ngc" seven_driver_basys2.ngd
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+ngdbuild -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "seven_driver_basys2.ngc" seven_driver_basys2.ngd
+map -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o seven_driver_basys2_map.ncd seven_driver_basys2.ngd seven_driver_basys2.pcf
+par -ise "C:/Users/Tata/test/test3/test3.ise" -w -intstyle ise -ol std -t 1 seven_driver_basys2_map.ncd seven_driver_basys2.ncd seven_driver_basys2.pcf
+trce -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -e 3 -s 5 -xml seven_driver_basys2 seven_driver_basys2.ncd -o seven_driver_basys2.twr seven_driver_basys2.pcf -ucf basys2.ucf
+bitgen -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -f seven_driver_basys2.ut seven_driver_basys2.ncd
+xst -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -ifn "C:/Users/Tata/test/test3/seven_driver_basys2.xst" -ofn "C:/Users/Tata/test/test3/seven_driver_basys2.syr"
+ngdbuild -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "seven_driver_basys2.ngc" seven_driver_basys2.ngd
+map -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o seven_driver_basys2_map.ncd seven_driver_basys2.ngd seven_driver_basys2.pcf
+par -ise "C:/Users/Tata/test/test3/test3.ise" -w -intstyle ise -ol std -t 1 seven_driver_basys2_map.ncd seven_driver_basys2.ncd seven_driver_basys2.pcf
+trce -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -e 3 -s 5 -xml seven_driver_basys2 seven_driver_basys2.ncd -o seven_driver_basys2.twr seven_driver_basys2.pcf -ucf basys2.ucf
+bitgen -ise "C:/Users/Tata/test/test3/test3.ise" -intstyle ise -f seven_driver_basys2.ut seven_driver_basys2.ncd
+xst -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -ifn "F:/Tkachuk/lab3/test3/seven_driver_basys2.xst" -ofn "F:/Tkachuk/lab3/test3/seven_driver_basys2.syr"
+ngdbuild -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "seven_driver_basys2.ngc" seven_driver_basys2.ngd
+map -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o seven_driver_basys2_map.ncd seven_driver_basys2.ngd seven_driver_basys2.pcf
+par -ise "F:/Tkachuk/lab3/test3/test3.ise" -w -intstyle ise -ol std -t 1 seven_driver_basys2_map.ncd seven_driver_basys2.ncd seven_driver_basys2.pcf
+trce -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -e 3 -s 5 -xml seven_driver_basys2 seven_driver_basys2.ncd -o seven_driver_basys2.twr seven_driver_basys2.pcf -ucf basys2.ucf
+bitgen -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -f seven_driver_basys2.ut seven_driver_basys2.ncd
+xst -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -ifn "F:/Tkachuk/lab3/test3/seven_driver_basys2.xst" -ofn "F:/Tkachuk/lab3/test3/seven_driver_basys2.syr"
+ngdbuild -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "seven_driver_basys2.ngc" seven_driver_basys2.ngd
+map -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o seven_driver_basys2_map.ncd seven_driver_basys2.ngd seven_driver_basys2.pcf
+par -ise "F:/Tkachuk/lab3/test3/test3.ise" -w -intstyle ise -ol std -t 1 seven_driver_basys2_map.ncd seven_driver_basys2.ncd seven_driver_basys2.pcf
+trce -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -e 3 -s 5 -xml seven_driver_basys2 seven_driver_basys2.ncd -o seven_driver_basys2.twr seven_driver_basys2.pcf -ucf basys2.ucf
+bitgen -ise "F:/Tkachuk/lab3/test3/test3.ise" -intstyle ise -f seven_driver_basys2.ut seven_driver_basys2.ncd

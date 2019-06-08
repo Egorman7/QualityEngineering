@@ -1,0 +1,38 @@
+xst -ise "C:/Users/Tata/test/test4/test4.ise" -intstyle ise -ifn "C:/Users/Tata/test/test4/clock_divider_top.xst" -ofn "C:/Users/Tata/test/test4/clock_divider_top.syr"
+ngdbuild -ise "C:/Users/Tata/test/test4/test4.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "clock_divider_top.ngc" clock_divider_top.ngd
+map -ise "C:/Users/Tata/test/test4/test4.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o clock_divider_top_map.ncd clock_divider_top.ngd clock_divider_top.pcf
+par -ise "C:/Users/Tata/test/test4/test4.ise" -w -intstyle ise -ol std -t 1 clock_divider_top_map.ncd clock_divider_top.ncd clock_divider_top.pcf
+trce -ise "C:/Users/Tata/test/test4/test4.ise" -intstyle ise -e 3 -s 5 -xml clock_divider_top clock_divider_top.ncd -o clock_divider_top.twr clock_divider_top.pcf -ucf basys2.ucf
+bitgen -ise "C:/Users/Tata/test/test4/test4.ise" -intstyle ise -f clock_divider_top.ut clock_divider_top.ncd
+xst -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -ifn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.xst" -ofn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.syr"
+ngdbuild -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "clock_divider_top.ngc" clock_divider_top.ngd
+xst -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -ifn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.xst" -ofn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.syr"
+ngdbuild -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "clock_divider_top.ngc" clock_divider_top.ngd
+map -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o clock_divider_top_map.ncd clock_divider_top.ngd clock_divider_top.pcf
+par -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -w -intstyle ise -ol std -t 1 clock_divider_top_map.ncd clock_divider_top.ncd clock_divider_top.pcf
+trce -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -e 3 -s 5 -xml clock_divider_top clock_divider_top.ncd -o clock_divider_top.twr clock_divider_top.pcf -ucf basys2.ucf
+bitgen -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -f clock_divider_top.ut clock_divider_top.ncd
+xst -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -ifn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.xst" -ofn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.syr"
+ngdbuild -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "clock_divider_top.ngc" clock_divider_top.ngd
+map -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o clock_divider_top_map.ncd clock_divider_top.ngd clock_divider_top.pcf
+par -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -w -intstyle ise -ol std -t 1 clock_divider_top_map.ncd clock_divider_top.ncd clock_divider_top.pcf
+trce -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -e 3 -s 5 -xml clock_divider_top clock_divider_top.ncd -o clock_divider_top.twr clock_divider_top.pcf -ucf basys2.ucf
+bitgen -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -f clock_divider_top.ut clock_divider_top.ncd
+xst -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -ifn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.xst" -ofn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.syr"
+ngdbuild -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "clock_divider_top.ngc" clock_divider_top.ngd
+map -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o clock_divider_top_map.ncd clock_divider_top.ngd clock_divider_top.pcf
+par -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -w -intstyle ise -ol std -t 1 clock_divider_top_map.ncd clock_divider_top.ncd clock_divider_top.pcf
+trce -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -e 3 -s 5 -xml clock_divider_top clock_divider_top.ncd -o clock_divider_top.twr clock_divider_top.pcf -ucf basys2.ucf
+bitgen -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -f clock_divider_top.ut clock_divider_top.ncd
+xst -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -ifn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.xst" -ofn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.syr"
+ngdbuild -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "clock_divider_top.ngc" clock_divider_top.ngd
+map -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o clock_divider_top_map.ncd clock_divider_top.ngd clock_divider_top.pcf
+par -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -w -intstyle ise -ol std -t 1 clock_divider_top_map.ncd clock_divider_top.ncd clock_divider_top.pcf
+trce -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -e 3 -s 5 -xml clock_divider_top clock_divider_top.ncd -o clock_divider_top.twr clock_divider_top.pcf -ucf basys2.ucf
+bitgen -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -f clock_divider_top.ut clock_divider_top.ncd
+xst -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -ifn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.xst" -ofn "D:/KNT124m/Tkachuk/lab4/test4/clock_divider_top.syr"
+ngdbuild -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "clock_divider_top.ngc" clock_divider_top.ngd
+map -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o clock_divider_top_map.ncd clock_divider_top.ngd clock_divider_top.pcf
+par -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -w -intstyle ise -ol std -t 1 clock_divider_top_map.ncd clock_divider_top.ncd clock_divider_top.pcf
+trce -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -e 3 -s 5 -xml clock_divider_top clock_divider_top.ncd -o clock_divider_top.twr clock_divider_top.pcf -ucf basys2.ucf
+bitgen -ise "D:/KNT124m/Tkachuk/lab4/test4/test4.ise" -intstyle ise -f clock_divider_top.ut clock_divider_top.ncd

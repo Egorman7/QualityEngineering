@@ -1,0 +1,764 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Basys2UserTest.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Basys2UserTest.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Basys2UserTest"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : Basys2UserTest
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : Basys2UserTest.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/CompSel.vhd" in Library work.
+Architecture behavioral of Entity compsel is up to date.
+Compiling vhdl file "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/PinDrivers.vhd" in Library work.
+Architecture behavioral of Entity pindrivers is up to date.
+Compiling vhdl file "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/EppCtrl.vhd" in Library work.
+Architecture behavioral of Entity eppctrl is up to date.
+Compiling vhdl file "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/SimpleSsegLedDemo.vhd" in Library work.
+Entity <simplessegleddemo> compiled.
+Entity <simplessegleddemo> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/ckMux.vhd" in Library work.
+Architecture behavioral of Entity ckmux is up to date.
+Compiling vhdl file "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/DispCtrl.vhd" in Library work.
+Architecture behavioral of Entity dispctrl is up to date.
+Compiling vhdl file "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd" in Library work.
+Architecture structural of Entity basys2usertest is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Basys2UserTest> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <CompSel> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PinDrivers> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <EppCtrl> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SimpleSsegLedDemo> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ckMux> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DispCtrl> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Basys2UserTest> in library <work> (Architecture <structural>).
+WARNING:Xst:753 - "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd" line 134: Unconnected output port 'CS0_7' of component 'CompSel'.
+WARNING:Xst:753 - "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd" line 134: Unconnected output port 'CS8_F' of component 'CompSel'.
+WARNING:Xst:753 - "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd" line 134: Unconnected output port 'CS10' of component 'CompSel'.
+WARNING:Xst:754 - "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd" line 151: Unconnected inout port 'ctlEppRdCycleOut' of component 'EppCtrl'.
+WARNING:Xst:753 - "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd" line 151: Unconnected output port 'ctlEppStartOut' of component 'EppCtrl'.
+Entity <Basys2UserTest> analyzed. Unit <Basys2UserTest> generated.
+
+Analyzing Entity <CompSel> in library <work> (Architecture <behavioral>).
+Entity <CompSel> analyzed. Unit <CompSel> generated.
+
+Analyzing Entity <PinDrivers> in library <work> (Architecture <behavioral>).
+Entity <PinDrivers> analyzed. Unit <PinDrivers> generated.
+
+Analyzing Entity <EppCtrl> in library <work> (Architecture <behavioral>).
+    Set property "fsm_extract = no" for signal <stEppCur>.
+    Set property "fsm_encoding = user" for signal <stEppCur>.
+    Set property "signal_encoding = user" for signal <stEppCur>.
+    Set property "fsm_extract = no" for signal <stEppNext>.
+    Set property "fsm_encoding = user" for signal <stEppNext>.
+    Set property "signal_encoding = user" for signal <stEppNext>.
+WARNING:Xst:819 - "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/EppCtrl.vhd" line 301: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <EppAstb>, <EppDstb>, <HandShakeReqIn>, <ctlEppDoneIn>
+Entity <EppCtrl> analyzed. Unit <EppCtrl> generated.
+
+Analyzing Entity <SimpleSsegLedDemo> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/SimpleSsegLedDemo.vhd" line 150: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <ck1>
+INFO:Xst:2679 - Register <dp> in unit <SimpleSsegLedDemo> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <SimpleSsegLedDemo> analyzed. Unit <SimpleSsegLedDemo> generated.
+
+Analyzing Entity <ckMux> in library <work> (Architecture <behavioral>).
+Entity <ckMux> analyzed. Unit <ckMux> generated.
+
+Analyzing Entity <DispCtrl> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/DispCtrl.vhd" line 111: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <Vcnt>
+Entity <DispCtrl> analyzed. Unit <DispCtrl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CompSel>.
+    Related source file is "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/CompSel.vhd".
+Unit <CompSel> synthesized.
+
+
+Synthesizing Unit <PinDrivers>.
+    Related source file is "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/PinDrivers.vhd".
+WARNING:Xst:647 - Input <adrIn<7:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <adrIn<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <PIOint<71:70>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 16-bit tristate buffer for signal <PIO>.
+    Found 16-bit register for signal <PIOint<87:72>>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred  16 Tristate(s).
+Unit <PinDrivers> synthesized.
+
+
+Synthesizing Unit <EppCtrl>.
+    Related source file is "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/EppCtrl.vhd".
+    Found 8-bit register for signal <regEppAdrOut>.
+    Found 8-bit tristate buffer for signal <EppDB>.
+    Found 1-bit register for signal <ctlEppRdCycleOut>.
+    Found 3-bit register for signal <stEppCur>.
+    Found 3-bit 8-to-1 multiplexer for signal <stEppNext>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+	inferred   8 Tristate(s).
+Unit <EppCtrl> synthesized.
+
+
+Synthesizing Unit <SimpleSsegLedDemo>.
+    Related source file is "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/SimpleSsegLedDemo.vhd".
+WARNING:Xst:646 - Signal <key_code> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <cntDiv<28:10>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <cntDiv<9>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <cntDiv<8:0>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 4-bit latch for signal <an>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 15-bit latch for signal <digit>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <digit> of Case statement line 0 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <digit> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <digit>.
+    Found 1-bit register for signal <par>.
+    Found 1-bit xor2 for signal <par$xor0000> created at line 169.
+    Found 1-bit register for signal <PS2Cold>.
+    Found 10-bit register for signal <s_buf>.
+    Found 26-bit up counter for signal <wdg>.
+    Found 26-bit comparator less for signal <wdg$cmp_lt0000> created at line 139.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  12 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <SimpleSsegLedDemo> synthesized.
+
+
+Synthesizing Unit <DispCtrl>.
+    Related source file is "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/DispCtrl.vhd".
+WARNING:Xst:646 - Signal <Vcnt<9:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Vcnt<2:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Hcnt> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 1-bit latch for signal <outGreen_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <outRed_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-bit register for signal <HS>.
+    Found 1-bit register for signal <VS>.
+    Found 1-bit register for signal <ck25MHz>.
+    Found 10-bit up counter for signal <intHcnt>.
+    Found 10-bit up counter for signal <intVcnt>.
+    Found 10-bit comparator less for signal <outGreen_0$cmp_lt0000> created at line 113.
+    Found 10-bit comparator less for signal <outGreen_0$cmp_lt0001> created at line 113.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <DispCtrl> synthesized.
+
+
+Synthesizing Unit <ckMux>.
+    Related source file is "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/ckMux.vhd".
+Unit <ckMux> synthesized.
+
+
+Synthesizing Unit <Basys2UserTest>.
+    Related source file is "D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd".
+Unit <Basys2UserTest> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 3
+ 10-bit up counter                                     : 2
+ 26-bit up counter                                     : 1
+# Registers                                            : 25
+ 1-bit register                                        : 22
+ 10-bit register                                       : 1
+ 3-bit register                                        : 1
+ 8-bit register                                        : 1
+# Latches                                              : 4
+ 1-bit latch                                           : 2
+ 15-bit latch                                          : 1
+ 4-bit latch                                           : 1
+# Comparators                                          : 3
+ 10-bit comparator less                                : 2
+ 26-bit comparator less                                : 1
+# Multiplexers                                         : 1
+ 3-bit 8-to-1 multiplexer                              : 1
+# Tristates                                            : 17
+ 1-bit tristate buffer                                 : 16
+ 8-bit tristate buffer                                 : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s100e.nph' in environment C:\LANG\Xilinx\10.1\ISE.
+WARNING:Xst:1710 - FF/Latch <s_buf_0> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <s_buf_1> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <s_buf_2> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <s_buf_3> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <s_buf_4> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <s_buf_5> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <s_buf_6> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <s_buf_7> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <s_buf_8> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <s_buf_9> (without init value) has a constant value of 1 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <par> (without init value) has a constant value of 0 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PS2Cold> (without init value) has a constant value of 0 in block <SimpleSsegLedDemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <9>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <10>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <11>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <12>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <14>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 2
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+# Latches                                              : 4
+ 1-bit latch                                           : 2
+ 15-bit latch                                          : 1
+ 4-bit latch                                           : 1
+# Comparators                                          : 2
+ 10-bit comparator less                                : 2
+# Multiplexers                                         : 1
+ 3-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <SimpleSsegLedDemoInst/digit_14> in Unit <Basys2UserTest> is equivalent to the following 10 FFs/Latches, which will be removed : <SimpleSsegLedDemoInst/digit_13> <SimpleSsegLedDemoInst/digit_12> <SimpleSsegLedDemoInst/digit_11> <SimpleSsegLedDemoInst/digit_10> <SimpleSsegLedDemoInst/digit_9> <SimpleSsegLedDemoInst/digit_8> <SimpleSsegLedDemoInst/digit_7> <SimpleSsegLedDemoInst/digit_6> <SimpleSsegLedDemoInst/digit_5> <SimpleSsegLedDemoInst/digit_4> 
+WARNING:Xst:1710 - FF/Latch <SimpleSsegLedDemoInst/digit_14> (without init value) has a constant value of 0 in block <Basys2UserTest>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <stEppCur_0> has a constant value of 0 in block <EppCtrl>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Basys2UserTest> ...
+
+Optimizing unit <DispCtrl> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Basys2UserTest, actual ratio is 6.
+Latch SimpleSsegLedDemoInst/digit_0 has been replicated 1 time(s) to handle iob=true attribute.
+Latch SimpleSsegLedDemoInst/digit_1 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 50
+ Flip-Flops                                            : 50
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Basys2UserTest.ngr
+Top Level Output File Name         : Basys2UserTest
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 74
+
+Cell Usage :
+# BELS                             : 146
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 18
+#      LUT2                        : 13
+#      LUT3                        : 14
+#      LUT3_L                      : 1
+#      LUT4                        : 47
+#      LUT4_D                      : 1
+#      LUT4_L                      : 2
+#      MUXCY                       : 18
+#      MUXF5                       : 8
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 62
+#      FD                          : 2
+#      FDE                         : 9
+#      FDE_1                       : 16
+#      FDR                         : 11
+#      FDRE                        : 10
+#      FDRS                        : 1
+#      FDS                         : 1
+#      LD                          : 2
+#      LDCP                        : 10
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFGMUX                     : 1
+# IO Buffers                       : 72
+#      IBUF                        : 15
+#      IBUFG                       : 2
+#      IOBUF                       : 24
+#      OBUF                        : 31
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       55  out of    960     5%  
+ Number of Slice Flip Flops:             38  out of   1920     1%  
+ Number of 4 input LUTs:                100  out of   1920     5%  
+ Number of IOs:                          74
+ Number of bonded IOBs:                  72  out of     83    86%  
+    IOB Flip Flops:                      24
+ Number of GCLKs:                         3  out of     24    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------------------------------+----------------------------------+-------+
+Clock Signal                                                      | Clock buffer(FF name)            | Load  |
+------------------------------------------------------------------+----------------------------------+-------+
+btn<0>                                                            | IBUF+BUFG                        | 10    |
+ctlEppDwrOut(EppCtrlInst/ctlEppDwrOut_and00001:O)                 | NONE(*)(PinDriversInst/PIOint_87)| 16    |
+mclk                                                              | IBUFG                            | 12    |
+DispCtrlInst/ck25MHz1                                             | BUFG                             | 22    |
+DispCtrlInst/outGreen_0_not0001(DispCtrlInst/outGreen_0_not0001:O)| NONE(*)(DispCtrlInst/outGreen_0) | 2     |
+------------------------------------------------------------------+----------------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------------------+--------------------------------------+-------+
+Control Signal                                                                   | Buffer(FF name)                      | Load  |
+---------------------------------------------------------------------------------+--------------------------------------+-------+
+SimpleSsegLedDemoInst/digit_1__or0000(SimpleSsegLedDemoInst/digit_1__or00001:O)  | NONE(SimpleSsegLedDemoInst/digit_1_1)| 3     |
+btn<3>                                                                           | IBUF                                 | 3     |
+N0(XST_GND:G)                                                                    | NONE(SimpleSsegLedDemoInst/an_0)     | 2     |
+SimpleSsegLedDemoInst/an_0__or0000(SimpleSsegLedDemoInst/an_0__or00001:O)        | NONE(SimpleSsegLedDemoInst/an_0)     | 2     |
+SimpleSsegLedDemoInst/an_1__or0000(SimpleSsegLedDemoInst/an_1__or00001:O)        | NONE(SimpleSsegLedDemoInst/an_1)     | 2     |
+SimpleSsegLedDemoInst/digit_0__and0000(SimpleSsegLedDemoInst/digit_0__and00001:O)| NONE(SimpleSsegLedDemoInst/digit_0_1)| 2     |
+btn<2>                                                                           | IBUF                                 | 2     |
+SimpleSsegLedDemoInst/an_1__and0000(SimpleSsegLedDemoInst/an_1__and00001:O)      | NONE(SimpleSsegLedDemoInst/an_1)     | 1     |
+SimpleSsegLedDemoInst/an_2__and0000(SimpleSsegLedDemoInst/an_2__and00001:O)      | NONE(SimpleSsegLedDemoInst/an_2)     | 1     |
+SimpleSsegLedDemoInst/an_3__and0000(SimpleSsegLedDemoInst/an_or00001:O)          | NONE(SimpleSsegLedDemoInst/an_3)     | 1     |
+SimpleSsegLedDemoInst/digit_2__and0000(SimpleSsegLedDemoInst/digit_2__and00001:O)| NONE(SimpleSsegLedDemoInst/digit_2)  | 1     |
+---------------------------------------------------------------------------------+--------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.988ns (Maximum Frequency: 200.479MHz)
+   Minimum input arrival time before clock: 3.813ns
+   Maximum output required time after clock: 9.368ns
+   Maximum combinational path delay: 7.969ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'mclk'
+  Clock period: 2.851ns (frequency: 350.742MHz)
+  Total number of paths / destination ports: 24 / 14
+-------------------------------------------------------------------------
+Delay:               2.851ns (Levels of Logic = 1)
+  Source:            EppCtrlInst/stEppCur_1 (FF)
+  Destination:       EppCtrlInst/regEppAdrOut_7 (FF)
+  Source Clock:      mclk rising
+  Destination Clock: mclk rising
+
+  Data Path: EppCtrlInst/stEppCur_1 to EppCtrlInst/regEppAdrOut_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             6   0.514   0.599  EppCtrlInst/stEppCur_1 (EppCtrlInst/stEppCur_1)
+     LUT4:I2->O            8   0.612   0.643  EppCtrlInst/ctlEppAwr_and00001 (EppCtrlInst/ctlEppAwr)
+     FDE:CE                    0.483          EppCtrlInst/regEppAdrOut_0
+    ----------------------------------------
+    Total                      2.851ns (1.609ns logic, 1.242ns route)
+                                       (56.4% logic, 43.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'DispCtrlInst/ck25MHz1'
+  Clock period: 4.988ns (frequency: 200.479MHz)
+  Total number of paths / destination ports: 531 / 53
+-------------------------------------------------------------------------
+Delay:               4.988ns (Levels of Logic = 3)
+  Source:            DispCtrlInst/intHcnt_5 (FF)
+  Destination:       DispCtrlInst/intVcnt_9 (FF)
+  Source Clock:      DispCtrlInst/ck25MHz1 rising
+  Destination Clock: DispCtrlInst/ck25MHz1 rising
+
+  Data Path: DispCtrlInst/intHcnt_5 to DispCtrlInst/intVcnt_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.514   0.603  DispCtrlInst/intHcnt_5 (DispCtrlInst/intHcnt_5)
+     LUT4_D:I0->O          1   0.612   0.387  DispCtrlInst/intHcnt_cmp_eq0000_SW1 (N60)
+     LUT4_L:I2->LO         1   0.612   0.103  DispCtrlInst/intHcnt_cmp_eq0000 (DispCtrlInst/intHcnt_cmp_eq0000)
+     LUT4:I3->O           10   0.612   0.750  DispCtrlInst/intVcnt_and000052 (DispCtrlInst/intVcnt_and0000)
+     FDRE:R                    0.795          DispCtrlInst/intVcnt_0
+    ----------------------------------------
+    Total                      4.988ns (3.145ns logic, 1.843ns route)
+                                       (63.1% logic, 36.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'btn<0>'
+  Total number of paths / destination ports: 11 / 7
+-------------------------------------------------------------------------
+Offset:              3.222ns (Levels of Logic = 2)
+  Source:            btn<2> (PAD)
+  Destination:       SimpleSsegLedDemoInst/an_2 (LATCH)
+  Destination Clock: btn<0> falling
+
+  Data Path: btn<2> to SimpleSsegLedDemoInst/an_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.106   0.879  btn_2_IBUF (SimpleSsegLedDemoInst/digit_1__and0000)
+     INV:I->O              1   0.612   0.357  SimpleSsegLedDemoInst/an_mux0003<1>1_INV_0 (SimpleSsegLedDemoInst/an_mux0003<1>)
+     LDCP:D                    0.268          SimpleSsegLedDemoInst/an_2
+    ----------------------------------------
+    Total                      3.222ns (1.986ns logic, 1.236ns route)
+                                       (61.6% logic, 38.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ctlEppDwrOut'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.825ns (Levels of Logic = 1)
+  Source:            EppDB<7> (PAD)
+  Destination:       PinDriversInst/PIOint_87 (FF)
+  Destination Clock: ctlEppDwrOut falling
+
+  Data Path: EppDB<7> to PinDriversInst/PIOint_87
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:IO->O           3   1.106   0.451  EppDB_7_IOBUF (N24)
+     FDE_1:D                   0.268          PinDriversInst/PIOint_79
+    ----------------------------------------
+    Total                      1.825ns (1.374ns logic, 0.451ns route)
+                                       (75.3% logic, 24.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'mclk'
+  Total number of paths / destination ports: 29 / 19
+-------------------------------------------------------------------------
+Offset:              3.813ns (Levels of Logic = 2)
+  Source:            EppAstb (PAD)
+  Destination:       EppCtrlInst/regEppAdrOut_7 (FF)
+  Destination Clock: mclk rising
+
+  Data Path: EppAstb to EppCtrlInst/regEppAdrOut_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            12   1.106   0.969  EppAstb_IBUF (EppAstb_IBUF)
+     LUT4:I0->O            8   0.612   0.643  EppCtrlInst/ctlEppAwr_and00001 (EppCtrlInst/ctlEppAwr)
+     FDE:CE                    0.483          EppCtrlInst/regEppAdrOut_0
+    ----------------------------------------
+    Total                      3.813ns (2.201ns logic, 1.612ns route)
+                                       (57.7% logic, 42.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'DispCtrlInst/ck25MHz1'
+  Total number of paths / destination ports: 64 / 8
+-------------------------------------------------------------------------
+Offset:              7.942ns (Levels of Logic = 4)
+  Source:            DispCtrlInst/intVcnt_7 (FF)
+  Destination:       OutGreen<2> (PAD)
+  Source Clock:      DispCtrlInst/ck25MHz1 rising
+
+  Data Path: DispCtrlInst/intVcnt_7 to OutGreen<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            11   0.514   0.862  DispCtrlInst/intVcnt_7 (DispCtrlInst/intVcnt_7)
+     LUT4:I1->O            2   0.612   0.380  DispCtrlInst/outGreen_0_cmp_lt00011 (DispCtrlInst/outGreen_0_cmp_lt00011)
+     MUXF5:S->O            8   0.641   0.795  DispCtrlInst/outGreen_0_and0000_f5 (DispCtrlInst/outGreen_0_and0000)
+     LUT3:I0->O            1   0.612   0.357  DispCtrlInst/outGreen_2_mux00031 (OutGreen_2_OBUF)
+     OBUF:I->O                 3.169          OutGreen_2_OBUF (OutGreen<2>)
+    ----------------------------------------
+    Total                      7.942ns (5.548ns logic, 2.394ns route)
+                                       (69.9% logic, 30.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'mclk'
+  Total number of paths / destination ports: 113 / 9
+-------------------------------------------------------------------------
+Offset:              9.368ns (Levels of Logic = 5)
+  Source:            EppCtrlInst/regEppAdrOut_7 (FF)
+  Destination:       EppDB<3> (PAD)
+  Source Clock:      mclk rising
+
+  Data Path: EppCtrlInst/regEppAdrOut_7 to EppDB<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.514   0.603  EppCtrlInst/regEppAdrOut_7 (EppCtrlInst/regEppAdrOut_7)
+     LUT3:I0->O           11   0.612   0.945  CompSelInst/CS80_9F_cmp_eq00001 (CS80_8F)
+     LUT4:I0->O           11   0.612   0.945  PinDriversInst/busOut<4>21 (PinDriversInst/PIOint_72_not0001)
+     LUT4:I0->O            1   0.612   0.387  EppCtrlInst/busEppInternal<1>4 (EppCtrlInst/busEppInternal<1>4)
+     LUT3:I2->O            1   0.612   0.357  EppCtrlInst/busEppInternal<1>39 (EppCtrlInst/busEppInternal<1>)
+     IOBUF:I->IO               3.169          EppDB_1_IOBUF (EppDB<1>)
+    ----------------------------------------
+    Total                      9.368ns (6.131ns logic, 3.237ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ctlEppDwrOut'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            PinDriversInst/PIOint_87 (FF)
+  Destination:       PIO<87> (PAD)
+  Source Clock:      ctlEppDwrOut falling
+
+  Data Path: PinDriversInst/PIOint_87 to PIO<87>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            1   0.514   0.357  PinDriversInst/PIOint_87 (PinDriversInst/PIOint_87)
+     IOBUF:T->IO               3.169          PIO_87_IOBUF (PIO<87>)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'btn<0>'
+  Total number of paths / destination ports: 16 / 10
+-------------------------------------------------------------------------
+Offset:              5.352ns (Levels of Logic = 2)
+  Source:            SimpleSsegLedDemoInst/digit_0 (LATCH)
+  Destination:       seg<3> (PAD)
+  Source Clock:      btn<0> falling
+
+  Data Path: SimpleSsegLedDemoInst/digit_0 to seg<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             3   0.588   0.603  SimpleSsegLedDemoInst/digit_0 (SimpleSsegLedDemoInst/digit_0)
+     LUT2:I0->O            2   0.612   0.380  seg<0>1 (seg_0_OBUF)
+     OBUF:I->O                 3.169          seg_3_OBUF (seg<3>)
+    ----------------------------------------
+    Total                      5.352ns (4.369ns logic, 0.983ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'DispCtrlInst/outGreen_0_not0001'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.114ns (Levels of Logic = 1)
+  Source:            DispCtrlInst/outGreen_0 (LATCH)
+  Destination:       OutGreen<0> (PAD)
+  Source Clock:      DispCtrlInst/outGreen_0_not0001 falling
+
+  Data Path: DispCtrlInst/outGreen_0 to OutGreen<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.588   0.357  DispCtrlInst/outGreen_0 (DispCtrlInst/outGreen_0)
+     OBUF:I->O                 3.169          OutGreen_0_OBUF (OutGreen<0>)
+    ----------------------------------------
+    Total                      4.114ns (3.757ns logic, 0.357ns route)
+                                       (91.3% logic, 8.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 49 / 19
+-------------------------------------------------------------------------
+Delay:               7.969ns (Levels of Logic = 6)
+  Source:            PIO<72> (PAD)
+  Destination:       EppDB<0> (PAD)
+
+  Data Path: PIO<72> to EppDB<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:IO->O           2   1.106   0.449  PIO_72_IOBUF (N23)
+     LUT4:I1->O            1   0.612   0.000  EppCtrlInst/busEppInternal<0>182 (EppCtrlInst/busEppInternal<0>182)
+     MUXF5:I0->O           1   0.278   0.387  EppCtrlInst/busEppInternal<0>18_f5 (EppCtrlInst/busEppInternal<0>18)
+     LUT4:I2->O            1   0.612   0.387  EppCtrlInst/busEppInternal<0>59_SW1 (N96)
+     LUT4:I2->O            1   0.612   0.357  EppCtrlInst/busEppInternal<0>59 (EppCtrlInst/busEppInternal<0>)
+     IOBUF:I->IO               3.169          EppDB_0_IOBUF (EppDB<0>)
+    ----------------------------------------
+    Total                      7.969ns (6.389ns logic, 1.580ns route)
+                                       (80.2% logic, 19.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.65 secs
+ 
+--> 
+
+Total memory usage is 194824 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   46 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

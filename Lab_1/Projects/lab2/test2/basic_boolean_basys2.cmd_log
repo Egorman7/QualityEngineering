@@ -1,0 +1,33 @@
+xst -ise "C:/Users/Tata/test/test2/test2.ise" -intstyle ise -ifn "C:/Users/Tata/test/test2/basic_boolean_basys2.xst" -ofn "C:/Users/Tata/test/test2/basic_boolean_basys2.syr"
+ngdbuild -ise "C:/Users/Tata/test/test2/test2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "basic_boolean_basys2.ngc" basic_boolean_basys2.ngd
+map -ise "C:/Users/Tata/test/test2/test2.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o basic_boolean_basys2_map.ncd basic_boolean_basys2.ngd basic_boolean_basys2.pcf
+par -ise "C:/Users/Tata/test/test2/test2.ise" -w -intstyle ise -ol std -t 1 basic_boolean_basys2_map.ncd basic_boolean_basys2.ncd basic_boolean_basys2.pcf
+trce -ise "C:/Users/Tata/test/test2/test2.ise" -intstyle ise -e 3 -s 5 -xml basic_boolean_basys2 basic_boolean_basys2.ncd -o basic_boolean_basys2.twr basic_boolean_basys2.pcf -ucf basys2.ucf
+bitgen -ise "C:/Users/Tata/test/test2/test2.ise" -intstyle ise -f basic_boolean_basys2.ut basic_boolean_basys2.ncd
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+ngdbuild -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "basic_boolean_basys2.ngc" basic_boolean_basys2.ngd
+map -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o basic_boolean_basys2_map.ncd basic_boolean_basys2.ngd basic_boolean_basys2.pcf
+par -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -w -intstyle ise -ol std -t 1 basic_boolean_basys2_map.ncd basic_boolean_basys2.ncd basic_boolean_basys2.pcf
+trce -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -e 3 -s 5 -xml basic_boolean_basys2 basic_boolean_basys2.ncd -o basic_boolean_basys2.twr basic_boolean_basys2.pcf -ucf basys2.ucf
+bitgen -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -f basic_boolean_basys2.ut basic_boolean_basys2.ncd
+xst -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "D:/stud/knt-124m/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+ngdbuild -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "basic_boolean_basys2.ngc" basic_boolean_basys2.ngd
+map -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o basic_boolean_basys2_map.ncd basic_boolean_basys2.ngd basic_boolean_basys2.pcf
+par -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -w -intstyle ise -ol std -t 1 basic_boolean_basys2_map.ncd basic_boolean_basys2.ncd basic_boolean_basys2.pcf
+trce -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -e 3 -s 5 -xml basic_boolean_basys2 basic_boolean_basys2.ncd -o basic_boolean_basys2.twr basic_boolean_basys2.pcf -ucf basys2.ucf
+bitgen -ise "D:/stud/knt-124m/Tkachuk/lab2/test2/test2.ise" -intstyle ise -f basic_boolean_basys2.ut basic_boolean_basys2.ncd
+xst -ise "F:/Tkachuk/lab2/test2/test2.ise" -intstyle ise -ifn "F:/Tkachuk/lab2/test2/basic_boolean_basys2.xst" -ofn "F:/Tkachuk/lab2/test2/basic_boolean_basys2.syr"
+ngdbuild -ise "F:/Tkachuk/lab2/test2/test2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s100e-cp132-5 "basic_boolean_basys2.ngc" basic_boolean_basys2.ngd
+map -ise "F:/Tkachuk/lab2/test2/test2.ise" -intstyle ise -p xc3s100e-cp132-5 -cm area -pr off -k 4 -c 100 -o basic_boolean_basys2_map.ncd basic_boolean_basys2.ngd basic_boolean_basys2.pcf
+par -ise "F:/Tkachuk/lab2/test2/test2.ise" -w -intstyle ise -ol std -t 1 basic_boolean_basys2_map.ncd basic_boolean_basys2.ncd basic_boolean_basys2.pcf
+trce -ise "F:/Tkachuk/lab2/test2/test2.ise" -intstyle ise -e 3 -s 5 -xml basic_boolean_basys2 basic_boolean_basys2.ncd -o basic_boolean_basys2.twr basic_boolean_basys2.pcf -ucf basys2.ucf
+bitgen -ise "F:/Tkachuk/lab2/test2/test2.ise" -intstyle ise -f basic_boolean_basys2.ut basic_boolean_basys2.ncd

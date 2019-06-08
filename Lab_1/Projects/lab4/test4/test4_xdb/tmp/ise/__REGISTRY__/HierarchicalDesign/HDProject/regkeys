@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+C:\LANG\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise D:/KNT124m/Tkachuk/lab4/test4/test4.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 clock_divider_top.ngc clock_divider_top.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+clock_divider_top_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

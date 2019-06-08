@@ -1,0 +1,40 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity test is
+port(
+	pSW: in std_logic_vector(7 downto 0);
+	pLED: out std_logic_vector(7 downto 0);
+	pLED1: out std_logic_vector(7 downto 0));
+end test;
+
+architecture t1 of test is
+begin
+	pLED(2) <= pSW(2);
+	pLED1(2)<= pSW(2);
+--	pLED(1) <= pSW(0);
+--	pLED(4) <= pSW(1);
+--	pLED(5) <= pSW(1);
+--	pLED1(0) <= pSW(0);
+--	pLED1(1) <= pSW(0);
+--	pLED1(4) <= pSW(7);
+--	pLED1(5) <= pSW(7);
+end architecture;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

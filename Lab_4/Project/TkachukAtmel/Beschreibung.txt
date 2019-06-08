@@ -1,0 +1,4 @@
+Vorbedingung: Initialisiert auf X+, Y+
+Codename: Kreuztisch
+Verhalten: Kran fährt nach einem Toggle des Userbuttons folgende Puntke an: X-,Y- -> X-,Y+ -> X+,Y+ und wartet auf den nächsten Toggle
+Getestet: 16.2.16

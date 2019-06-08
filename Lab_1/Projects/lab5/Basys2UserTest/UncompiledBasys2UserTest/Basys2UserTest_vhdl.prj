@@ -1,0 +1,7 @@
+vhdl work "D:\KNT124m\Tkachuk\lab5\Basys2UserTest\UncompiledBasys2UserTest\SimpleSsegLedDemo.vhd"
+vhdl work "D:\KNT124m\Tkachuk\lab5\Basys2UserTest\UncompiledBasys2UserTest\PinDrivers.vhd"
+vhdl work "D:\KNT124m\Tkachuk\lab5\Basys2UserTest\UncompiledBasys2UserTest\EppCtrl.vhd"
+vhdl work "D:\KNT124m\Tkachuk\lab5\Basys2UserTest\UncompiledBasys2UserTest\DispCtrl.vhd"
+vhdl work "D:\KNT124m\Tkachuk\lab5\Basys2UserTest\UncompiledBasys2UserTest\CompSel.vhd"
+vhdl work "D:\KNT124m\Tkachuk\lab5\Basys2UserTest\UncompiledBasys2UserTest\ckMux.vhd"
+vhdl work "D:\KNT124m\Tkachuk\lab5\Basys2UserTest\UncompiledBasys2UserTest\Basys2UserTest.vhd"

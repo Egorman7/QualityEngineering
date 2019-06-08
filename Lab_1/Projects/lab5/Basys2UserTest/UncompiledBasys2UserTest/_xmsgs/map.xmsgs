@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="LIT" num="243" delta="unknown" >Logical network <arg fmt="%s" index="1">PS2C_IBUF</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="395" delta="unknown" >The above <arg fmt="%s" index="1">warning</arg> message <arg fmt="%s" index="2">base_net_load_rule</arg> is repeated <arg fmt="%d" index="3">1</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="4">PS2D_IBUF</arg>
+To see the details of these <arg fmt="%s" index="5">warning</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="986" delta="unknown" >The SAVE constraint for nets has been made more strict starting in 10.1, such that the net driver and load blocks will be preserved as well. To revert to the original behavior please set XIL_MAP_OLD_SAVE.
+</msg>
+
+<msg type="info" file="MapLib" num="984" delta="unknown" >SAVE has been detected on the following signal(s):
+<arg fmt="%s" index="1">PS2C,
+PS2D</arg>.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="unknown" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="1543" delta="unknown" >The register <arg fmt="%s" index="1">PinDriversInst/PIOint_72</arg> has the property IOB=TRUE, but was not packed into the input side of an I/O component. <arg fmt="%z" index="2">The site IFF1 contains register PinDriversInst/PIOint_80.
+The register PinDriversInst/PIOint_72 can not use site iff1 because the clock enable does not match site IFF1.</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="1543" delta="unknown" >The register <arg fmt="%s" index="1">PinDriversInst/PIOint_73</arg> has the property IOB=TRUE, but was not packed into the input side of an I/O component. <arg fmt="%z" index="2">The site IFF1 contains register PinDriversInst/PIOint_81.
+The register PinDriversInst/PIOint_73 can not use site iff1 because the clock enable does not match site IFF1.</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="1543" delta="unknown" >The register <arg fmt="%s" index="1">PinDriversInst/PIOint_74</arg> has the property IOB=TRUE, but was not packed into the input side of an I/O component. <arg fmt="%z" index="2">The site IFF1 contains register PinDriversInst/PIOint_82.
+The register PinDriversInst/PIOint_74 can not use site iff1 because the clock enable does not match site IFF1.</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="1543" delta="unknown" >The register <arg fmt="%s" index="1">PinDriversInst/PIOint_75</arg> has the property IOB=TRUE, but was not packed into the input side of an I/O component. <arg fmt="%z" index="2">The site IFF1 contains register PinDriversInst/PIOint_83.
+The register PinDriversInst/PIOint_75 can not use site iff1 because the clock enable does not match site IFF1.</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="1543" delta="unknown" >The register <arg fmt="%s" index="1">PinDriversInst/PIOint_76</arg> has the property IOB=TRUE, but was not packed into the input side of an I/O component. <arg fmt="%z" index="2">The site IFF1 contains register PinDriversInst/PIOint_84.
+The register PinDriversInst/PIOint_76 can not use site iff1 because the clock enable does not match site IFF1.</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="1543" delta="unknown" >The register <arg fmt="%s" index="1">PinDriversInst/PIOint_77</arg> has the property IOB=TRUE, but was not packed into the input side of an I/O component. <arg fmt="%z" index="2">The site IFF1 contains register PinDriversInst/PIOint_85.
+The register PinDriversInst/PIOint_77 can not use site iff1 because the clock enable does not match site IFF1.</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="1543" delta="unknown" >The register <arg fmt="%s" index="1">PinDriversInst/PIOint_78</arg> has the property IOB=TRUE, but was not packed into the input side of an I/O component. <arg fmt="%z" index="2">The site IFF1 contains register PinDriversInst/PIOint_86.
+The register PinDriversInst/PIOint_78 can not use site iff1 because the clock enable does not match site IFF1.</arg>
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">ctlEppDwrOut</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">DispCtrlInst/outGreen_0_not0001</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="unknown" >The signal &lt;<arg fmt="%s" index="1">PS2C_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="unknown" >The signal &lt;<arg fmt="%s" index="1">PS2D_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">VSync</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">OutBlue&lt;1&gt;</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">OutBlue&lt;2&gt;</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">OutRed&lt;0&gt;</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">OutRed&lt;1&gt;</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">OutRed&lt;2&gt;</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">HSync</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">OutGreen&lt;0&gt;</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">OutGreen&lt;1&gt;</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="unknown" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">OutGreen&lt;2&gt;</arg> is set but the tri state is not configured. 
+</msg>
+
+</messages>
+

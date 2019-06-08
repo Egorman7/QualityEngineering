@@ -1,0 +1,65 @@
+V3 36
+FL C:/Users/Tata/test/Basys2UserTest/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd 2009/03/23.20:10:34 K.31
+FL C:/Users/Tata/test/Basys2UserTest/Basys2UserTest/UncompiledBasys2UserTest/ckMux.vhd 2009/03/23.02:17:04 K.31
+FL C:/Users/Tata/test/Basys2UserTest/Basys2UserTest/UncompiledBasys2UserTest/CompSel.vhd 2008/12/11.10:59:00 K.31
+FL C:/Users/Tata/test/Basys2UserTest/Basys2UserTest/UncompiledBasys2UserTest/DispCtrl.vhd 2009/03/23.02:16:22 K.31
+FL C:/Users/Tata/test/Basys2UserTest/Basys2UserTest/UncompiledBasys2UserTest/EppCtrl.vhd 2008/02/22.18:39:00 K.31
+FL C:/Users/Tata/test/Basys2UserTest/Basys2UserTest/UncompiledBasys2UserTest/PinDrivers.vhd 2009/03/23.18:46:12 K.31
+FL C:/Users/Tata/test/Basys2UserTest/Basys2UserTest/UncompiledBasys2UserTest/SimpleSsegLedDemo.vhd 2015/03/03.12:05:46 K.31
+FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd 2009/03/23.22:10:34 K.31
+EN work/Basys2UserTest 1552465773 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568 LB UNISIM \
+      PH unisim/VCOMPONENTS 1200023571
+AR work/Basys2UserTest/Structural 1552465774 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.vhd \
+      EN work/Basys2UserTest 1552465773 CP CompSel CP PinDrivers CP EppCtrl \
+      CP SimpleSsegLedDemo CP ckMux CP DispCtrl
+FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/ckMux.vhd 2009/03/23.04:17:04 K.31
+EN work/ckMux 1552465769 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/ckMux.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567 LB UNISIM PH unisim/VCOMPONENTS 1200023571
+AR work/ckMux/Behavioral 1552465770 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/ckMux.vhd \
+      EN work/ckMux 1552465769 CP BUFGMUX
+FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/CompSel.vhd 2008/12/11.12:59:00 K.31
+EN work/CompSel 1552465761 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/CompSel.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/CompSel/Behavioral 1552465762 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/CompSel.vhd \
+      EN work/CompSel 1552465761
+FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/DispCtrl.vhd 2009/03/23.04:16:22 K.31
+EN work/DispCtrl 1552465771 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/DispCtrl.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/DispCtrl/Behavioral 1552465772 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/DispCtrl.vhd \
+      EN work/DispCtrl 1552465771
+FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/EppCtrl.vhd 2008/02/22.20:39:00 K.31
+EN work/EppCtrl 1552465765 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/EppCtrl.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/EppCtrl/Behavioral 1552465766 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/EppCtrl.vhd \
+      EN work/EppCtrl 1552465765
+FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/PinDrivers.vhd 2009/03/23.20:46:12 K.31
+EN work/PinDrivers 1552465763 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/PinDrivers.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/PinDrivers/Behavioral 1552465764 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/PinDrivers.vhd \
+      EN work/PinDrivers 1552465763
+FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/SimpleSsegLedDemo.vhd 2019/03/13.11:29:16 K.31
+EN work/SimpleSsegLedDemo 1552465767 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/SimpleSsegLedDemo.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/SimpleSsegLedDemo/Behavioral 1552465768 \
+      FL D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/SimpleSsegLedDemo.vhd \
+      EN work/SimpleSsegLedDemo 1552465767

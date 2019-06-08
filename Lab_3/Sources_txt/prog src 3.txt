@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity test is
+port(
+	pSW: in std_logic_vector(7 downto 0);
+	pLED: out std_logic_vector(7 downto 0);
+	pLED1: out std_logic_vector(7 downto 0);
+	pHex: out std_logic_vector(7 downto 0));
+end test;
+
+
+architecture t1 of test is
+begin
+	process(pSW)
+	begin
+		if (pSW(1) = '1') then pHex <= "00100100";
+		else pHex <= "10011001";
+		end if;
+	end process;
+end architecture;

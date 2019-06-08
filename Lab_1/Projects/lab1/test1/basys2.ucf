@@ -1,0 +1,2 @@
+NET "ld<1>" LOC = "m11";
+NET "sw<1>" LOC = "l3";

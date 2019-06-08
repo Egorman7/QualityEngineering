@@ -1,0 +1,275 @@
+--------------------------------------------------------------------------------
+Release 10.1 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+C:\LANG\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
+D:/KNT124m/Tkachuk/lab5/Basys2UserTest/UncompiledBasys2UserTest/Basys2UserTest.ise
+-intstyle ise -v 3 -s 5 -xml Basys2UserTest Basys2UserTest.ncd -o
+Basys2UserTest.twr Basys2UserTest.pcf -ucf Basys2Bist.ucf
+
+Design file:              Basys2UserTest.ncd
+Physical constraint file: Basys2UserTest.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2008-01-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock EppDstb
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+EppDB<0>    |    1.547(F)|    1.260(F)|ctlEppDwrOut      |   0.000|
+EppDB<1>    |    1.942(F)|    1.308(F)|ctlEppDwrOut      |   0.000|
+EppDB<2>    |    2.161(F)|    2.500(F)|ctlEppDwrOut      |   0.000|
+EppDB<3>    |    2.164(F)|    1.721(F)|ctlEppDwrOut      |   0.000|
+EppDB<4>    |    2.164(F)|    1.882(F)|ctlEppDwrOut      |   0.000|
+EppDB<5>    |    2.176(F)|    2.208(F)|ctlEppDwrOut      |   0.000|
+EppDB<6>    |    2.172(F)|    2.155(F)|ctlEppDwrOut      |   0.000|
+EppDB<7>    |    0.424(F)|    1.574(F)|ctlEppDwrOut      |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock EppWr
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+EppDB<0>    |    1.392(F)|    1.453(F)|ctlEppDwrOut      |   0.000|
+EppDB<1>    |    1.787(F)|    1.501(F)|ctlEppDwrOut      |   0.000|
+EppDB<2>    |    2.006(F)|    2.693(F)|ctlEppDwrOut      |   0.000|
+EppDB<3>    |    2.009(F)|    1.914(F)|ctlEppDwrOut      |   0.000|
+EppDB<4>    |    2.009(F)|    2.075(F)|ctlEppDwrOut      |   0.000|
+EppDB<5>    |    2.021(F)|    2.401(F)|ctlEppDwrOut      |   0.000|
+EppDB<6>    |    2.017(F)|    2.348(F)|ctlEppDwrOut      |   0.000|
+EppDB<7>    |    0.269(F)|    1.767(F)|ctlEppDwrOut      |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock btn<0>
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+btn<1>      |    1.379(F)|    1.754(F)|btn_0_IBUF        |   0.000|
+btn<2>      |    1.937(F)|    1.899(F)|btn_0_IBUF        |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock mclk
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+EppAstb     |    1.339(R)|    0.887(R)|mclk_IBUFG        |   0.000|
+EppDB<0>    |    1.018(R)|    0.295(R)|mclk_IBUFG        |   0.000|
+EppDB<1>    |    0.424(R)|    0.770(R)|mclk_IBUFG        |   0.000|
+EppDB<2>    |    0.747(R)|    0.513(R)|mclk_IBUFG        |   0.000|
+EppDB<3>    |    0.893(R)|    0.397(R)|mclk_IBUFG        |   0.000|
+EppDB<4>    |    0.556(R)|    0.665(R)|mclk_IBUFG        |   0.000|
+EppDB<5>    |    0.122(R)|    1.013(R)|mclk_IBUFG        |   0.000|
+EppDB<6>    |   -0.384(R)|    1.418(R)|mclk_IBUFG        |   0.000|
+EppDB<7>    |    0.016(R)|    1.098(R)|mclk_IBUFG        |   0.000|
+sw<7>       |   -0.986(R)|    2.644(R)|mclk_IBUFG        |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock uclk
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+sw<7>       |    1.236(R)|   -0.133(R)|uclk_IBUFG        |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock EppDstb to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+PIO<72>     |   10.374(F)|ctlEppDwrOut      |   0.000|
+PIO<73>     |   10.367(F)|ctlEppDwrOut      |   0.000|
+PIO<74>     |   10.405(F)|ctlEppDwrOut      |   0.000|
+PIO<75>     |   10.602(F)|ctlEppDwrOut      |   0.000|
+PIO<76>     |   11.086(F)|ctlEppDwrOut      |   0.000|
+PIO<77>     |   11.086(F)|ctlEppDwrOut      |   0.000|
+PIO<78>     |   10.602(F)|ctlEppDwrOut      |   0.000|
+PIO<79>     |   10.481(F)|ctlEppDwrOut      |   0.000|
+PIO<80>     |   13.550(F)|ctlEppDwrOut      |   0.000|
+PIO<81>     |   13.307(F)|ctlEppDwrOut      |   0.000|
+PIO<82>     |   13.674(F)|ctlEppDwrOut      |   0.000|
+PIO<83>     |   13.477(F)|ctlEppDwrOut      |   0.000|
+PIO<84>     |   13.548(F)|ctlEppDwrOut      |   0.000|
+PIO<85>     |   13.078(F)|ctlEppDwrOut      |   0.000|
+PIO<86>     |   12.843(F)|ctlEppDwrOut      |   0.000|
+PIO<87>     |   10.480(F)|ctlEppDwrOut      |   0.000|
+------------+------------+------------------+--------+
+
+Clock EppWr to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+PIO<72>     |   10.567(F)|ctlEppDwrOut      |   0.000|
+PIO<73>     |   10.560(F)|ctlEppDwrOut      |   0.000|
+PIO<74>     |   10.598(F)|ctlEppDwrOut      |   0.000|
+PIO<75>     |   10.795(F)|ctlEppDwrOut      |   0.000|
+PIO<76>     |   11.279(F)|ctlEppDwrOut      |   0.000|
+PIO<77>     |   11.279(F)|ctlEppDwrOut      |   0.000|
+PIO<78>     |   10.795(F)|ctlEppDwrOut      |   0.000|
+PIO<79>     |   10.674(F)|ctlEppDwrOut      |   0.000|
+PIO<80>     |   13.743(F)|ctlEppDwrOut      |   0.000|
+PIO<81>     |   13.500(F)|ctlEppDwrOut      |   0.000|
+PIO<82>     |   13.867(F)|ctlEppDwrOut      |   0.000|
+PIO<83>     |   13.670(F)|ctlEppDwrOut      |   0.000|
+PIO<84>     |   13.741(F)|ctlEppDwrOut      |   0.000|
+PIO<85>     |   13.271(F)|ctlEppDwrOut      |   0.000|
+PIO<86>     |   13.036(F)|ctlEppDwrOut      |   0.000|
+PIO<87>     |   10.673(F)|ctlEppDwrOut      |   0.000|
+------------+------------+------------------+--------+
+
+Clock btn<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+an<0>       |    7.281(F)|btn_0_IBUF        |   0.000|
+an<1>       |    7.278(F)|btn_0_IBUF        |   0.000|
+an<2>       |    7.289(F)|btn_0_IBUF        |   0.000|
+an<3>       |    7.278(F)|btn_0_IBUF        |   0.000|
+seg<0>      |    9.860(F)|btn_0_IBUF        |   0.000|
+seg<2>      |    9.023(F)|btn_0_IBUF        |   0.000|
+seg<3>      |   10.529(F)|btn_0_IBUF        |   0.000|
+seg<4>      |    9.884(F)|btn_0_IBUF        |   0.000|
+seg<5>      |   10.232(F)|btn_0_IBUF        |   0.000|
+seg<6>      |    7.289(F)|btn_0_IBUF        |   0.000|
+------------+------------+------------------+--------+
+
+Clock mclk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+EppDB<0>    |   11.852(R)|mclk_IBUFG        |   0.000|
+EppDB<1>    |   13.057(R)|mclk_IBUFG        |   0.000|
+EppDB<2>    |   11.318(R)|mclk_IBUFG        |   0.000|
+EppDB<3>    |   12.213(R)|mclk_IBUFG        |   0.000|
+EppDB<4>    |   11.719(R)|mclk_IBUFG        |   0.000|
+EppDB<5>    |   10.971(R)|mclk_IBUFG        |   0.000|
+EppDB<6>    |   11.709(R)|mclk_IBUFG        |   0.000|
+EppDB<7>    |   10.980(R)|mclk_IBUFG        |   0.000|
+EppWait     |    8.124(R)|mclk_IBUFG        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock EppDstb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mclk           |         |         |    6.166|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock EppWr
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mclk           |         |         |    6.166|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+EppDstb        |    0.584|    0.584|         |         |
+EppWr          |    1.720|    1.720|         |         |
+mclk           |    3.146|         |         |         |
+uclk           |    1.938|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock uclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mclk           |    1.938|         |         |         |
+uclk           |    1.938|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+EppAstb        |EppDB<0>       |    7.998|
+EppAstb        |EppDB<1>       |    7.664|
+EppAstb        |EppDB<2>       |    7.543|
+EppAstb        |EppDB<3>       |    7.348|
+EppAstb        |EppDB<4>       |    7.165|
+EppAstb        |EppDB<5>       |    6.452|
+EppAstb        |EppDB<6>       |    6.491|
+EppAstb        |EppDB<7>       |    6.460|
+PIO<72>        |EppDB<0>       |    9.673|
+PIO<73>        |EppDB<1>       |    7.755|
+PIO<74>        |EppDB<2>       |    6.621|
+PIO<75>        |EppDB<3>       |    7.574|
+PIO<76>        |EppDB<4>       |    8.996|
+PIO<77>        |EppDB<5>       |    8.733|
+PIO<78>        |EppDB<6>       |    8.966|
+PIO<79>        |EppDB<7>       |    8.285|
+PIO<80>        |EppDB<0>       |    9.299|
+PIO<81>        |EppDB<1>       |    7.414|
+PIO<82>        |EppDB<2>       |    8.285|
+PIO<83>        |EppDB<3>       |    8.421|
+PIO<84>        |EppDB<4>       |    9.044|
+PIO<85>        |EppDB<5>       |    8.644|
+PIO<86>        |EppDB<6>       |    9.078|
+PIO<87>        |EppDB<7>       |    9.357|
+btn<0>         |EppDB<4>       |    8.694|
+btn<1>         |EppDB<5>       |    9.306|
+btn<2>         |EppDB<6>       |    9.326|
+btn<3>         |EppDB<7>       |    9.079|
+sw<0>          |EppDB<0>       |   10.974|
+sw<0>          |led<0>         |    5.034|
+sw<1>          |EppDB<1>       |    8.451|
+sw<1>          |led<1>         |    5.854|
+sw<2>          |EppDB<2>       |    7.648|
+sw<2>          |led<2>         |    5.241|
+sw<3>          |EppDB<3>       |    8.720|
+sw<3>          |led<3>         |    6.642|
+sw<4>          |EppDB<4>       |    9.332|
+sw<4>          |led<4>         |    5.808|
+sw<5>          |EppDB<5>       |    8.400|
+sw<5>          |led<5>         |    5.743|
+sw<6>          |EppDB<6>       |    8.506|
+sw<6>          |led<6>         |    6.084|
+sw<7>          |EppDB<7>       |    9.689|
+sw<7>          |led<7>         |    6.175|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Mar 13 11:29:39 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 106 MB
+
+
+
